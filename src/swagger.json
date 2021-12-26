@@ -1,0 +1,12 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Ignite Challenge",
+    "description": "This is an API for rocketseat challenge",
+    "version": "1.0.0",
+    "Contact": {
+      "email": "teste@teste.com.br"
+    }
+  },
+  "paths": {}
+}
