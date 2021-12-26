@@ -9,9 +9,6 @@ class ListAllUsersUseCase {
   constructor(private usersRepository: IUsersRepository) {}
 
   execute({ user_id }: IRequest): User[] {
-    if (!this.userExists(user_id)) {
-      throw new Error("User not found");
-    }
     if (!this.isAdmin(user_id)) {
       throw new Error("access denied");
     }
